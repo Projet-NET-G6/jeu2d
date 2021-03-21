@@ -1,1 +1,6 @@
-temp
+Temp
+Library/Artifacts
+Library/TempArtifacts
+Library/ShaderCache
+Library/PackageCache
+Library/StateCache
