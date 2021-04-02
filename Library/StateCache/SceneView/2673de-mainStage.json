@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.14020578563213349,"y":0.34374040365219118,"z":-57.72986602783203},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":0.7436425685882568,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1.4988154172897339,"y":-1.6042436361312867,"z":-10.26171875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.67257308959961,"orthographic":true}
->>>>>>> origin/NicoBranch
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":4.183531761169434,"y":5.752475738525391,"z":-1676.56103515625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":22.6051082611084,"orthographic":true}
