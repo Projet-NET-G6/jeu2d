@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6116602255903009573}
   - component: {fileID: 3389905843890114041}
   m_Layer: 31
-  m_Name: TilesBackGround
+  m_Name: TilesSheetsBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
