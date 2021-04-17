@@ -64,18 +64,22 @@ public class PlayerMovements : MonoBehaviour
         {
             isWallJumping = true;
         }
-        if(isGrounded == false && isWalled==true && Input.GetAxis("Horizontal") !=0)
+        if(isGrounded == false && isWalled==true)
         {
             isWallSliding = true;
+            animator.SetBool("IsSliding", true);
         }
         else
         {
             isWallSliding = false;
+            animator.SetBool("IsSliding", false);
         }
         Flip(rb.velocity.x);
 
-        float characterVelocity = Mathf.Abs(rb.velocity.x);
-        animator.SetFloat("Speed", characterVelocity);
+        float characterVelocityX = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("XSpeed", characterVelocityX);
+        float characterVelocityY = rb.velocity.y;
+        animator.SetFloat("YSpeed", characterVelocityY);
 
     }
 
