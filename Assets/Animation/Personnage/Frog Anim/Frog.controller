@@ -45,6 +45,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: YSpeed
     m_EventTreshold: 0.4
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1000046115629844016}
   m_Solo: 0
@@ -124,6 +127,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: YSpeed
     m_EventTreshold: 0.4
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2707146328486425952}
   m_Solo: 0
@@ -177,6 +183,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: YSpeed
     m_EventTreshold: 0.4
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1460375949224726580}
   m_Solo: 0
@@ -291,6 +300,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: YSpeed
     m_EventTreshold: -0.4
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1460375949224726580}
   m_Solo: 0
@@ -327,6 +339,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: IsSliding
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: IsJumping
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -443,6 +461,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: YSpeed
     m_EventTreshold: 0.4
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2707146328486425952}
   m_Solo: 0
@@ -549,6 +570,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: YSpeed
     m_EventTreshold: -0.4
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1000046115629844016}
   m_Solo: 0
@@ -574,6 +598,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: YSpeed
     m_EventTreshold: -0.4
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1455388498558198270}
   m_Solo: 0
@@ -624,6 +651,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: YSpeed
     m_EventTreshold: -0.4
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1455388498558198270}
   m_Solo: 0
