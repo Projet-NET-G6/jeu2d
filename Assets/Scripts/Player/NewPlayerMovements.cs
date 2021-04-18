@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class NewPlayerMovements : MonoBehaviour
 {
-    public float moveSpeed=5f;
+    private float moveSpeed=6f;
     public double sprintSpeed=1;
     public float wallSlidingSpeed=0.75f;
 
     private float wallJumpX = 2f;
-    private float wallJumpY = 1.4f;
-    public float JumpForce=5f;
+    private float wallJumpY = 1.3f;
+    private float JumpForce=7f;
 
 
     //data necessaire au GrounCheck
