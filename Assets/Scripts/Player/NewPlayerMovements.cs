@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class NewPlayerMovements : MonoBehaviour
 {
-    private float moveSpeed=6f;
-    public double sprintSpeed=1;
-    public float wallSlidingSpeed=0.75f;
+    private float moveSpeed = 6f;
+    public double sprintSpeed = 1f;
+    public float wallSlidingSpeed = 0.75f;
 
     private float wallJumpX = 2f;
     private float wallJumpY = 1.3f;
-    private float JumpForce=7f;
+    private float JumpForce = 7f;
+
+
+    public bool betterJump = false;
+    public float fallMultiplier = 0.5f;
+    public float lowJumpMultiplier = 1f;
+
+
 
 
     //data necessaire au GrounCheck
     public Transform groundCheck;
-    public float groundCheckRadius=0.35f;
+    public float groundCheckRadius = 0.35f;
     //data necessaire au FrontCheck
     public Transform frontCheck;
-    public float frontCheckRadius=0.25f;
+    public float frontCheckRadius = 0.25f;
 
 
     public LayerMask whatIsGround;
@@ -135,6 +142,19 @@ public class NewPlayerMovements : MonoBehaviour
             rb.velocity = new Vector2(JumpForce * wallJumpX, JumpForce * wallJumpY);
         }
         
+        if(betterJump)
+        {
+            if(rb.velocity.y < 0)
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
+            }
+
+            if (rb.velocity.y > 0 && !Input.GetKey("space"))
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+            }
+
+        }
     }
 
     void Flip(float _velocity)
