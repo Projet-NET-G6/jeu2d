@@ -41,6 +41,26 @@ public class NewPlayerMovements : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    public CapsuleCollider2D playerCollider;
+
+
+
+
+    public static NewPlayerMovements instance;
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Il n'y a plus d'une instance de PlayerMouvement dans la scène");
+            return;
+        }
+
+        instance = this;
+    }
+
+
+
 
 
     // Start is called before the first frame update
@@ -49,6 +69,7 @@ public class NewPlayerMovements : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerCollider = GetComponent<CapsuleCollider2D>();
     }
 
     // Update is called once per frame

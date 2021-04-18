@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2203995069999522970}
   - component: {fileID: 2203995069999522974}
   - component: {fileID: 1586764367}
+  - component: {fileID: 256527862990690334}
   m_Layer: 8
   m_Name: MaskPlayer
   m_TagString: Player
@@ -176,6 +177,22 @@ MonoBehaviour:
   rb: {fileID: 0}
   animator: {fileID: 0}
   spriteRenderer: {fileID: 0}
+  playerCollider: {fileID: 0}
+--- !u!114 &256527862990690334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2203995069999522975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6821a79df268a2b4485b29a95ff32ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  animator: {fileID: 0}
 --- !u!1 &2203995070553222616
 GameObject:
   m_ObjectHideFlags: 0
