@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Monde 1/Level 2.unity
-=======
-- path: Assets/Scenes/Monde 1/Level 1.unity
->>>>>>> origin/YassBranch
   isLoaded: 1
   isActive: 1
   isSubScene: 0

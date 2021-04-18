@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8904009768548869401}
   - component: {fileID: 8904009768548869400}
   - component: {fileID: 8904009768548869399}
-  - component: {fileID: 8904009768548869398}
   - component: {fileID: 8904009768548869397}
+  - component: {fileID: 1366283390}
   m_Layer: 8
   m_Name: PinkPlayer
   m_TagString: Player
@@ -125,40 +125,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.032549858, y: -0.28290248}
   m_Size: {x: 0.9397602, y: 1.434195}
   m_Direction: 0
---- !u!114 &8904009768548869398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8904009768548869396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 247e88030adb24c4bbd7907ae6f40013, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 450
-  sprintSpeed: 1.35
-  wallSlidingSpeed: 0.75
-  JumpForce: 400
-  xWallJumpForce: 350
-  yWallJumpForce: 350
-  isJumping: 0
-  isWallJumping: 0
-  isWallSliding: 0
-  isSprinting: 0
-  isGrounded: 0
-  isWalled: 0
-  groundCheck: {fileID: 8904009769981340915}
-  groundCheckRadius: 0.35
-  frontCheck: {fileID: 8904009770229181214}
-  frontCheckRadius: 0.25
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 1
-  rb: {fileID: 8904009768548869400}
-  animator: {fileID: 8904009768548869397}
-  spriteRenderer: {fileID: 8904009768548869401}
 --- !u!95 &8904009768548869397
 Animator:
   serializedVersion: 3
@@ -178,6 +144,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1366283390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904009768548869396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065beff073a5cff409ec7e08317a6072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprintSpeed: 1
+  wallSlidingSpeed: 0.75
+  betterJump: 1
+  fallMultiplier: 0.5
+  lowJumpMultiplier: 1
+  groundCheck: {fileID: 8904009769981340915}
+  groundCheckRadius: 0.35
+  frontCheck: {fileID: 8904009770229181214}
+  frontCheckRadius: 0.25
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1
+  isWallSliding: 0
+  isGrounded: 0
+  isWalled: 0
+  isSprinting: 0
+  flip: 0
+  rb: {fileID: 0}
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!1 &8904009769981340914
 GameObject:
   m_ObjectHideFlags: 0

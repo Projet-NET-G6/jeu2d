@@ -202,6 +202,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &313945060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8201282859137255986, guid: e7959065531e7dc4f8b08bc71322ac24,
+    type: 3}
+  m_PrefabInstance: {fileID: 449384176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &393058989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -337,6 +343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FrogPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201282859442822134, guid: e7959065531e7dc4f8b08bc71322ac24,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7959065531e7dc4f8b08bc71322ac24, type: 3}
@@ -704,6 +715,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7107513663020861239, guid: bad07b743d7008c4baf684c35287c16c,
     type: 3}
   m_PrefabInstance: {fileID: 836939503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1644738506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8201282859337181622, guid: e7959065531e7dc4f8b08bc71322ac24,
+    type: 3}
+  m_PrefabInstance: {fileID: 449384176}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1653283475
 GameObject:
@@ -3150,3 +3167,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 541dd376c4cffaf43932c8ba9595fa6f, type: 3}
+--- !u!1 &2041743330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8201282859442822132, guid: e7959065531e7dc4f8b08bc71322ac24,
+    type: 3}
+  m_PrefabInstance: {fileID: 449384176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041743337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041743330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065beff073a5cff409ec7e08317a6072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprintSpeed: 1
+  wallSlidingSpeed: 0.75
+  betterJump: 1
+  fallMultiplier: 0.5
+  lowJumpMultiplier: 1
+  groundCheck: {fileID: 313945060}
+  groundCheckRadius: 0.35
+  frontCheck: {fileID: 1644738506}
+  frontCheckRadius: 0.25
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1
+  isWallSliding: 0
+  isGrounded: 0
+  isWalled: 0
+  isSprinting: 0
+  flip: 0
+  rb: {fileID: 0}
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}

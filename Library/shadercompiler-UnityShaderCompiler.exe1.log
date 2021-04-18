@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 Base path: 'E:/Program Files (x86)/Unity/2019.4.18f1/Editor/Data', plugins path 'E:/Program Files (x86)/Unity/2019.4.18f1/Editor/Data/PlaybackEngines'
-=======
-Base path: 'E:/Unity Dev/2019.4.18f1/Editor/Data', plugins path 'E:/Unity Dev/2019.4.18f1/Editor/Data/PlaybackEngines'
->>>>>>> origin/YassBranch
 Cmd: initializeCompiler
-
-Quitting shader compiler process
