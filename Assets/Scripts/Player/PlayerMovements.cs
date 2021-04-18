@@ -32,12 +32,25 @@ public class PlayerMovements : MonoBehaviour
 
     /*public bool FlipX;*/
 
+    public static PlayerMovements instance;
 
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Il n'y a plus d'une instance de PlayerMouvement dans la scène");
+            return;
+        }
+
+        instance = this;
+    }
 
     //rigidbody du personnage
     public Rigidbody2D rb;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    public CapsuleCollider2D playerCollider;
+
 
     private Vector3 velocity = Vector3.zero;
 
@@ -64,22 +77,18 @@ public class PlayerMovements : MonoBehaviour
         {
             isWallJumping = true;
         }
-        if(isGrounded == false && isWalled==true)
+        if(isGrounded == false && isWalled==true && Input.GetAxis("Horizontal") !=0)
         {
             isWallSliding = true;
-            animator.SetBool("IsSliding", true);
         }
         else
         {
             isWallSliding = false;
-            animator.SetBool("IsSliding", false);
         }
         Flip(rb.velocity.x);
 
-        float characterVelocityX = Mathf.Abs(rb.velocity.x);
-        animator.SetFloat("XSpeed", characterVelocityX);
-        float characterVelocityY = rb.velocity.y;
-        animator.SetFloat("YSpeed", characterVelocityY);
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("Speed", characterVelocity);
 
     }
 

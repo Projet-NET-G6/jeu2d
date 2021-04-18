@@ -16,8 +16,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
+<<<<<<< HEAD
     width: 3440
     height: 1357
+=======
+    width: 1920
+    height: 997
+>>>>>>> origin/YassBranch
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
@@ -39,10 +44,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2451
     y: 0
     width: 989
     height: 1307
+=======
+    x: 1452
+    y: 0
+    width: 468
+    height: 947
+>>>>>>> origin/YassBranch
   m_MinSize: {x: 276, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -70,9 +82,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 3440
     height: 1357
   m_MinSize: {x: 875, y: 300}
+=======
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> origin/YassBranch
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -91,7 +109,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 3440
+=======
+    width: 1920
+>>>>>>> origin/YassBranch
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -112,8 +134,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 1337
     width: 3440
+=======
+    y: 977
+    width: 1920
+>>>>>>> origin/YassBranch
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -137,12 +164,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 3440
     height: 1307
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
   controlID: 161
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 0
+  controlID: 128
+>>>>>>> origin/YassBranch
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +198,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 828
     height: 1307
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 65
+=======
+    width: 462
+    height: 947
+  m_MinSize: {x: 231, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 77
+>>>>>>> origin/YassBranch
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,10 +230,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 828
     height: 466
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 462
+    height: 494
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> origin/YassBranch
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -210,9 +262,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 466
     width: 828
     height: 841
+=======
+    y: 494
+    width: 462
+    height: 453
+>>>>>>> origin/YassBranch
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -237,6 +295,7 @@ MonoBehaviour:
   - {fileID: 12}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 828
     y: 0
     width: 1623
@@ -245,6 +304,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
   controlID: 100
+=======
+    x: 462
+    y: 0
+    width: 990
+    height: 947
+  m_MinSize: {x: 202, y: 321}
+  m_MaxSize: {x: 4002, y: 8021}
+  vertical: 1
+  controlID: 133
+>>>>>>> origin/YassBranch
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,8 +331,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1623
     height: 814
+=======
+    width: 990
+    height: 480
+>>>>>>> origin/YassBranch
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -271,8 +345,14 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 18}
   - {fileID: 19}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 0
+=======
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> origin/YassBranch
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,16 +369,25 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 814
     width: 1623
     height: 493
+=======
+    y: 480
+    width: 990
+    height: 467
+>>>>>>> origin/YassBranch
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
+<<<<<<< HEAD
   - {fileID: 17}
+=======
+>>>>>>> origin/YassBranch
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &13
@@ -322,10 +411,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2451
     y: 73
     width: 988
     height: 1286
+=======
+    x: 1452
+    y: 73
+    width: 467
+    height: 926
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -333,7 +429,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
+<<<<<<< HEAD
     m_CachedPref: 256
+=======
+    m_CachedPref: 159
+>>>>>>> origin/YassBranch
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -361,9 +461,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 539
     width: 827
     height: 820
+=======
+    y: 567
+    width: 461
+    height: 432
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -378,19 +484,31 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts/Audio
+=======
+    - Assets/Scenes/Monde 1
+>>>>>>> origin/YassBranch
   m_ViewMode: 0
   m_StartGridSize: 16
   m_LastFolders: []
   m_LastFoldersGridSize: 16
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\Player N0\Desktop\cours\WEB\GithubRepository\jeu2d
+=======
+  m_LastProjectPath: C:\Users\darkc\OneDrive\Documents\GitHub\jeu2d\jeu2d
+>>>>>>> origin/YassBranch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 863a0000
     m_LastClickedID: 14982
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000fc390000723a0000e23b0000e43b0000e63b0000e83b0000ea3b0000ec3b0000ee3b0000f03b0000f23b0000f43b0000f63b0000f83b0000fa3b0000fc3b0000fe3b0000003c0000023c0000043c0000063c0000083c00000a3c00000c3c00000e3c0000103c0000
+=======
+    m_ExpandedIDs: 00000000883a00008a3a0000523b0000543b0000563b0000583b00005a3b00005c3b00005e3b0000603b0000623b0000643b0000663b0000683b00006a3b00006c3b00006e3b0000703b0000723b0000743b0000763b0000783b00007a3b00007c3b00007e3b0000803b0000823b0000843b0000863b0000883b00008a3b00008c3b00008e3b0000903b0000923b0000943b0000
+>>>>>>> origin/YassBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,21 +536,25 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000fc390000723a0000e23b0000e43b0000e63b0000e83b0000ea3b0000ee3b0000f03b0000f43b0000f63b0000f83b0000fa3b0000fc3b0000003c0000023c0000043c0000063c0000083c00000a3c00000c3c00000e3c0000103c0000403c0000463c0000483c0000003d0000443e0000ee440000f0440000
+=======
+    m_ExpandedIDs: ffffffff00000000883a00008a3a0000523b0000543b0000563b0000583b00005a3b00005c3b00005e3b0000603b0000623b0000643b0000663b0000683b00006a3b00006c3b00006e3b0000703b0000723b0000743b0000763b0000783b00007a3b00007c3b00007e3b0000803b0000823b0000843b0000863b0000883b00008a3b00008c3b00008e3b0000903b0000923b0000943b0000
+>>>>>>> origin/YassBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Level 1
+      m_OriginalName: Level 1
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15390
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -497,12 +619,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 827
     height: 445
+=======
+    width: 461
+    height: 473
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c2350000
       m_LastClickedID: 0
       m_ExpandedIDs: 0ee2ffff50f0fffff0f0ffff0af3ffff48f3ffff7cf3ffff9af3fffff8f3ffff20f4ffff0af9ffff2af9ffff40f9ffffbcf9fffff4f9ffff0afaffff64fbffffbc490000d6490000f24900003a4a0000e44f0000f84f0000
@@ -510,16 +638,32 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 84ecffffb8f2ffff2af9ffff00fbffff563900008c39000096390000d4390000a24e0000445500004e550000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Text
+        m_OriginalName: Text
+>>>>>>> origin/YassBranch
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
+=======
+        m_UserData: -5358
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 0
+>>>>>>> origin/YassBranch
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -550,10 +694,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 828
     y: 73
     width: 1621
     height: 793
+=======
+    x: 462
+    y: 73
+    width: 988
+    height: 459
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 2673de08ee9a88143bc28a105d740551
@@ -565,9 +716,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -5.903781, y: 0.7576542, z: -0.39961657}
     speed: 2
     m_Value: {x: -6.0773077, y: 0.61189187, z: -0.34613568}
+=======
+    m_Target: {x: 260.44522, y: 243.05269, z: -51.700344}
+    speed: 2
+    m_Value: {x: 260.44522, y: 243.05269, z: -51.700344}
+>>>>>>> origin/YassBranch
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -617,9 +774,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 12.411399
     speed: 2
     m_Value: 11.876937
+=======
+    m_Target: 227.54073
+    speed: 2
+    m_Value: 227.54073
+>>>>>>> origin/YassBranch
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -665,10 +828,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 828
     y: 887
     width: 1621
     height: 472
+=======
+    x: 462
+    y: 73
+    width: 988
+    height: 459
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -678,7 +848,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 802, y: 451}
+=======
+  m_TargetSize: {x: 779, y: 438}
+>>>>>>> origin/YassBranch
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -693,10 +867,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -401
     m_HBaseRangeMax: 401
     m_VBaseRangeMin: -225.5
     m_VBaseRangeMax: 225.5
+=======
+    m_HBaseRangeMin: -389.5
+    m_HBaseRangeMax: 389.5
+    m_VBaseRangeMin: -219
+    m_VBaseRangeMax: 219
+>>>>>>> origin/YassBranch
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -705,7 +886,11 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
     m_EnableMouseInput: 0
+=======
+    m_EnableMouseInput: 1
+>>>>>>> origin/YassBranch
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -714,16 +899,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1621
       height: 451
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 810.5, y: 225.5}
+=======
+      width: 988
+      height: 438
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 494, y: 219}
+>>>>>>> origin/YassBranch
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -810.5
       y: -225.5
       width: 1621
@@ -731,6 +924,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1621, y: 472}
+=======
+      x: -494
+      y: -219
+      width: 988
+      height: 438
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 988, y: 459}
+>>>>>>> origin/YassBranch
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -757,10 +959,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 498
     y: 188
     width: 904
     height: 569
+=======
+    x: 462
+    y: 73
+    width: 988
+    height: 459
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
@@ -783,14 +992,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 426
     y: 73
     width: 996
     height: 699
+=======
+    x: 462
+    y: 73
+    width: 988
+    height: 459
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 9069833648873529362, guid: effeb5052efc2524b9801c10cd97d9bf, type: 2}
+<<<<<<< HEAD
+    m_ValueSerializationHelper:
+    - e00: 1.124125
+=======
+    - {fileID: -8516017452192714485, guid: 89bd8780ce30eee4b9d5e2315dd41403, type: 2}
+    - {fileID: -8527020347369349605, guid: 668158ed8604a7444af5f2adcc21df1d, type: 2}
+    - {fileID: 7738393468787139568, guid: 6381fc3519acbcb439cefa4a62f7563c, type: 2}
     m_ValueSerializationHelper:
     - e00: 1.124125
       e01: 0
@@ -808,11 +1031,67 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+>>>>>>> origin/YassBranch
+      e01: 0
+      e02: 0
+      e03: -104.87634
+      e10: 0
+      e11: 1.124125
+      e12: 0
+      e13: 251.69362
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.6126061
+      e01: 0
+      e02: 0
+      e03: 160.30832
+      e10: 0
+      e11: 0.6126061
+      e12: 0
+      e13: 250.19348
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.237545
+      e01: 0
+      e02: 0
+      e03: 279.6405
+      e10: 0
+      e11: 1.237545
+      e12: 0
+      e13: 172.83295
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
+<<<<<<< HEAD
   m_AnimatorController: {fileID: 9100000, guid: effeb5052efc2524b9801c10cd97d9bf,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: 9069833648873529362, guid: effeb5052efc2524b9801c10cd97d9bf,
+=======
+  m_AnimatorController: {fileID: 9100000, guid: 668158ed8604a7444af5f2adcc21df1d,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -8527020347369349605, guid: 668158ed8604a7444af5f2adcc21df1d,
+>>>>>>> origin/YassBranch
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -847,10 +1126,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 828
     y: 887
     width: 1621
     height: 472
+=======
+    x: 462
+    y: 553
+    width: 988
+    height: 446
+>>>>>>> origin/YassBranch
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
@@ -874,6 +1160,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 462
+<<<<<<< HEAD
     y: 663
     width: 904
     height: 336
@@ -881,3 +1168,12 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: -34776
+=======
+    y: 553
+    width: 988
+    height: 446
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -30420
+>>>>>>> origin/YassBranch
