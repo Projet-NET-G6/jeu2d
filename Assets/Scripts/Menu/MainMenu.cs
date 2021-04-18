@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
 
    public void StartGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level1TestGameOver");
     }
 
     public void SettingsButton()
