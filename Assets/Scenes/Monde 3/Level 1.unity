@@ -475,7 +475,7 @@ PrefabInstance:
     - target: {fileID: 5695435860516020865, guid: 52bc92a9bb444704da0020f5715cc138,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.96
+      value: 4.802
       objectReference: {fileID: 0}
     - target: {fileID: 5695435860516020865, guid: 52bc92a9bb444704da0020f5715cc138,
         type: 3}
@@ -566,7 +566,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.08235294, g: 0.24705882, b: 0.4509804, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -583,7 +583,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.441016
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3836,6 +3836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714672127590066561, guid: d1d9178e0414c774fa32f3a6047bf3dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ennemi
       objectReference: {fileID: 0}
     - target: {fileID: 4714672127590066564, guid: d1d9178e0414c774fa32f3a6047bf3dd,
         type: 3}
