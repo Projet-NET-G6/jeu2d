@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Monde 3/Level 1.unity
+- path: Assets/Scenes/Monde 1/Level1TestGameOver.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

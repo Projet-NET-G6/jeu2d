@@ -27,9 +27,7 @@ public class NewPlayerMovements : MonoBehaviour
     public Transform frontCheck;
     public float frontCheckRadius = 0.25f;
 
-
     public LayerMask whatIsGround;
-
 
     public bool isWallSliding = false;
     public bool isGrounded = false;
@@ -130,7 +128,7 @@ public class NewPlayerMovements : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
         isWalled = Physics2D.OverlapCircle(frontCheck.position, frontCheckRadius, whatIsGround);
-
+        
         //Deplacement Gauche Droite
         if (Input.GetKey("q") || Input.GetKey("left"))
         {
