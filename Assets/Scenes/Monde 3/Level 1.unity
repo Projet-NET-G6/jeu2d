@@ -4075,6 +4075,7 @@ MonoBehaviour:
   rb: {fileID: 2203995070683059900}
   animator: {fileID: 2203995070683059895}
   spriteRenderer: {fileID: 2203995070683059888}
+  playerCollider: {fileID: 0}
 --- !u!70 &2203995070683059891
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4106,6 +4107,7 @@ GameObject:
   - component: {fileID: 2203995070683059890}
   - component: {fileID: 2203995070683059895}
   - component: {fileID: 2203995070683059896}
+  - component: {fileID: 2203995070683059897}
   m_Layer: 8
   m_Name: MaskPlayer
   m_TagString: Player
@@ -4164,6 +4166,22 @@ MonoBehaviour:
   rb: {fileID: 0}
   animator: {fileID: 0}
   spriteRenderer: {fileID: 0}
+  playerCollider: {fileID: 0}
+--- !u!114 &2203995070683059897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2203995070683059894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6821a79df268a2b4485b29a95ff32ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  animator: {fileID: 0}
 --- !u!50 &2203995070683059900
 Rigidbody2D:
   serializedVersion: 4

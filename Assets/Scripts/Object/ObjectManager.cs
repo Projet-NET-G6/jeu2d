@@ -16,5 +16,6 @@ public class ObjectManager : MonoBehaviour
             Debug.Log("Victoire");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        
     }
 }
