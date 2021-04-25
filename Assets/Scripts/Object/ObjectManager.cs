@@ -11,10 +11,19 @@ public class ObjectManager : MonoBehaviour
     }
     public void AllObjectsCollected()
     {
-        if(transform.childCount==0)
+        Scene scene = SceneManager.GetActiveScene();
+        if (transform.childCount==0)
         {
-            Debug.Log("Victoire");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(scene.name == "Monde1Level3" || scene.name == "Monde2Level3" || scene.name == "Monde3Level3")
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+            else
+            {
+                Debug.Log("Victoire");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            
         }
         
     }
