@@ -58,9 +58,6 @@ public class NewPlayerMovements : MonoBehaviour
     }
 
 
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -115,12 +112,6 @@ public class NewPlayerMovements : MonoBehaviour
         //inversion de l'image du personnage
         Flip(rb.velocity.x);
     }
-
-
-
-
-
-
 
     void FixedUpdate()
     {
