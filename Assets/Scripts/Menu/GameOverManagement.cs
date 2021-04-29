@@ -35,7 +35,7 @@ public class GameOverManagement : MonoBehaviour
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SelectWorld");
     }
 
     public void QuitButton()

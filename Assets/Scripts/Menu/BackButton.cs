@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BackButton : MonoBehaviour
 {
-    public void Back() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    public void Back(string name) {
+        SceneManager.LoadScene(name);
     }
 }

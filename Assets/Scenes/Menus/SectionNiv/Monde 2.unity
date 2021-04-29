@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 201572021}
   - component: {fileID: 201572020}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Level3Monde2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 201572021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1503949174}
+        m_MethodName: LeveltoLoad
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Monde2Level3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &201572021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,6 +941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503949175}
+  - component: {fileID: 1503949174}
   m_Layer: 0
   m_Name: MainMenuControl
   m_TagString: Untagged
@@ -937,6 +949,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1503949174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503949173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c95c88101752848875cf6ae58e68ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level02Button: {fileID: 1508436358}
+  Level03Button: {fileID: 201572020}
 --- !u!4 &1503949175
 Transform:
   m_ObjectHideFlags: 0
@@ -964,7 +990,7 @@ GameObject:
   - component: {fileID: 1508436359}
   - component: {fileID: 1508436358}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Level2Monde2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,7 +1058,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1508436359}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1503949174}
+        m_MethodName: LeveltoLoad
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Monde2Level2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1508436359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,7 +1370,7 @@ GameObject:
   - component: {fileID: 1960421431}
   - component: {fileID: 1960421430}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1404,13 +1441,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1532357709}
         m_MethodName: Back
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SelectWorld
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1960421431
@@ -1463,7 +1500,7 @@ GameObject:
   - component: {fileID: 2000461850}
   - component: {fileID: 2000461849}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Level1Monde2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,7 +1568,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2000461850}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1503949174}
+        m_MethodName: LeveltoLoad
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: Monde2Level1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2000461850
 MonoBehaviour:
   m_ObjectHideFlags: 0
