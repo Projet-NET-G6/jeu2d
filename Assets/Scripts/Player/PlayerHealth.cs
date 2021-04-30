@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
 
     public static PlayerHealth instance;
-
+    public Animator animator;
     private void Awake()
     {
         if (instance != null)
@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Start()
     {
+        animator = GetComponent<Animator>();
         currentHealth = maxHealth;
        
     }
@@ -46,10 +47,11 @@ public class PlayerHealth : MonoBehaviour
     public void Die()
     {
         Debug.Log("Le joueur est éliminé");
-        PlayerMovements.instance.enabled = false;
-        PlayerMovements.instance.animator.SetTrigger("Despawn");
-        PlayerMovements.instance.rb.bodyType = RigidbodyType2D.Kinematic;
-        PlayerMovements.instance.playerCollider.enabled = false;
+        NewPlayerMovements.instance.enabled = false;
+        NewPlayerMovements.instance.animator.SetTrigger("IsDead");
+        NewPlayerMovements.instance.rb.bodyType = RigidbodyType2D.Kinematic;
+        NewPlayerMovements.instance.playerCollider.enabled = false;
         GameOverManagement.instance.OnPlayerDeath();
+        
     }
 }
