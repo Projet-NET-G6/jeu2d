@@ -1220,6 +1220,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936726498}
     m_Modifications:
+    - target: {fileID: 7847722939630932714, guid: 84505926a06641f4c81a576322e8f721,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847722939673771056, guid: 84505926a06641f4c81a576322e8f721,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7847722939717885586, guid: 84505926a06641f4c81a576322e8f721,
         type: 3}
       propertyPath: m_RootOrder
@@ -1279,6 +1289,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpikedBallHalfComplete
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847722940150502005, guid: 84505926a06641f4c81a576322e8f721,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847722940228598353, guid: 84505926a06641f4c81a576322e8f721,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847722940276397765, guid: 84505926a06641f4c81a576322e8f721,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84505926a06641f4c81a576322e8f721, type: 3}
