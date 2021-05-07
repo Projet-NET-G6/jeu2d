@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/MainMenuFinal.unity
+- path: Assets/Scenes/Menus/SectionNiv/SelectWorld.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
