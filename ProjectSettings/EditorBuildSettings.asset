@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/MainMenuFinal.unity
     guid: c18ff53b4b17b094fb3480b9349539ed
   - enabled: 1
+    path: Assets/Scenes/Menus/ChoixSkin.unity
+    guid: 0bffaa1dadb7def4abad3f9f9c28bacd
+  - enabled: 1
     path: Assets/Scenes/Menus/SectionNiv/SelectWorld.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
