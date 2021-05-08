@@ -236,8 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6cd201744aa3f4691ff26a0b6222e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1922138226}
-  sound: {fileID: 8300000, guid: 03d468eb419701b4f8d1815b9f16e9d9, type: 3}
+  clip: {fileID: 1922138226}
 --- !u!82 &1922138226
 AudioSource:
   m_ObjectHideFlags: 0
@@ -249,7 +248,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 26dd09a1b438c3d448c6062b07b9ef75,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a5896660484ed5145a848459b4322624, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -257,7 +256,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

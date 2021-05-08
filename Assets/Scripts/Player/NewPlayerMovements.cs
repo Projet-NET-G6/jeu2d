@@ -110,7 +110,7 @@ public class NewPlayerMovements : MonoBehaviour
         animator.SetFloat("YSpeed", characterVelocityY);
 
         //inversion de l'image du personnage
-        flip = Flip(rb.velocity.x);
+        Flip(rb.velocity.x);
     }
 
     void FixedUpdate()
@@ -124,10 +124,12 @@ public class NewPlayerMovements : MonoBehaviour
         if (Input.GetKey("q") || Input.GetKey("left"))
         {
             rb.velocity = new Vector2((float)(-moveSpeed * sprintSpeed), rb.velocity.y);
+            flip = true;
         }
         else if (Input.GetKey("d") || Input.GetKey("right"))
         {
             rb.velocity = new Vector2((float)(moveSpeed * sprintSpeed), rb.velocity.y);
+            flip = false;
         }
         else
         {
@@ -151,11 +153,11 @@ public class NewPlayerMovements : MonoBehaviour
         {
             if (flip == false)
             {
-                rb.velocity = new Vector2(JumpForce * wallJumpX, JumpForce * wallJumpY);
+                rb.velocity = new Vector2(-JumpForce * wallJumpX, JumpForce * wallJumpY);
             }
             else if (flip == true)
             {
-                rb.velocity = new Vector2(-JumpForce * wallJumpX, JumpForce * wallJumpY);
+                rb.velocity = new Vector2(JumpForce * wallJumpX, JumpForce * wallJumpY);
             }
         }
         
@@ -174,10 +176,9 @@ public class NewPlayerMovements : MonoBehaviour
         }
     }
 
-    private bool Flip(float _velocity)
+    void Flip(float _velocity)
     {
-        bool fliping=true;
-        bool valeur;
+        bool fliping;
         if (_velocity > 0.2f)
         {
             transform.localScale = Vector3.one;
@@ -188,8 +189,13 @@ public class NewPlayerMovements : MonoBehaviour
             transform.localScale = new Vector3(-1f, 1f, 1f);
             fliping = true;   
         }
-        valeur = fliping;
-        return valeur;
+        else 
+        {
+            fliping = false;
+        }
+
+
+        //return fliping;
     }
 
     private void OnDrawGizmos()
