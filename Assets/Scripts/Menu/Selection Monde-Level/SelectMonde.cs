@@ -12,7 +12,7 @@ public class SelectMonde : MonoBehaviour
     {
         //PlayerPrefs.DeleteAll();
         worldPassed = PlayerPrefs.GetInt("worldPassed");
-        Debug.Log(worldPassed);
+        //Debug.Log(worldPassed);
         Monde02Button.interactable = false;
         Monde03Button.interactable = false;
 
@@ -37,13 +37,5 @@ public class SelectMonde : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
-
-    public void resetPlayerPrefs() {
-        Monde02Button.interactable = false;
-        Monde03Button.interactable = false;
-        PlayerPrefs.DeleteAll();
-    }
-            
-
     
 }

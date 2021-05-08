@@ -13,7 +13,7 @@ public class SelectMonde2Levels : MonoBehaviour
     {
         //PlayerPrefs.DeleteAll();
         levelPassed = PlayerPrefs.GetInt("levelPassedMonde2");
-        Debug.Log(levelPassed);
+        //Debug.Log(levelPassed);
         Level02Button.interactable = false;
         Level03Button.interactable = false;
 

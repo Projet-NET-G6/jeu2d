@@ -6,8 +6,6 @@ public class ChangeSkins : MonoBehaviour
 {
     public GameObject skinsPanel;
 
-    private bool inDoor = false;
-
     public GameObject player;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,7 +13,6 @@ public class ChangeSkins : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             skinsPanel.gameObject.SetActive(true);
-            inDoor = true;
         }
     }
 
@@ -24,7 +21,6 @@ public class ChangeSkins : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             skinsPanel.gameObject.SetActive(false);
-            inDoor = false;
         }
     }
     

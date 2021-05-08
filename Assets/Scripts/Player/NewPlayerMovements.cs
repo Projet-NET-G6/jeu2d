@@ -110,7 +110,7 @@ public class NewPlayerMovements : MonoBehaviour
         animator.SetFloat("YSpeed", characterVelocityY);
 
         //inversion de l'image du personnage
-        Flip(rb.velocity.x);
+        flip = Flip(rb.velocity.x);
     }
 
     void FixedUpdate()
@@ -149,7 +149,14 @@ public class NewPlayerMovements : MonoBehaviour
         //WallJump
         if (Input.GetKey("space") && isWallSliding == true)
         {
-            rb.velocity = new Vector2(JumpForce * wallJumpX, JumpForce * wallJumpY);
+            if (flip == false)
+            {
+                rb.velocity = new Vector2(JumpForce * wallJumpX, JumpForce * wallJumpY);
+            }
+            else if (flip == true)
+            {
+                rb.velocity = new Vector2(-JumpForce * wallJumpX, JumpForce * wallJumpY);
+            }
         }
         
         if(betterJump)
@@ -167,18 +174,22 @@ public class NewPlayerMovements : MonoBehaviour
         }
     }
 
-    void Flip(float _velocity)
+    private bool Flip(float _velocity)
     {
+        bool fliping=true;
+        bool valeur;
         if (_velocity > 0.2f)
         {
             transform.localScale = Vector3.one;
-            flip = false;
+            fliping = false;
         }
         else if (_velocity < -0.2f)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
-            flip = true;   
+            fliping = true;   
         }
+        valeur = fliping;
+        return valeur;
     }
 
     private void OnDrawGizmos()

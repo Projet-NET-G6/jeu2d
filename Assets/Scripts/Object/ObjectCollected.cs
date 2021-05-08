@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class ObjectCollected : MonoBehaviour
 {
+
+    public AudioSource audioSource;
+    public AudioClip sound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
+            AudioSource.PlayClipAtPoint(sound, transform.position);
+
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
 

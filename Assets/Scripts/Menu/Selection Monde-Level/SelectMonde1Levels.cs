@@ -14,7 +14,7 @@ public class SelectMonde1Levels : MonoBehaviour
     {
         //PlayerPrefs.DeleteAll();
         levelPassed = PlayerPrefs.GetInt("levelPassedMonde1");
-        Debug.Log(levelPassed);
+        //Debug.Log(levelPassed);
         Level02Button.interactable = false;
         Level03Button.interactable = false;
 

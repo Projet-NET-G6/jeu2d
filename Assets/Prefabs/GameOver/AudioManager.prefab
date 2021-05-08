@@ -142,5 +142,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playlist:
-  - {fileID: 8300000, guid: a5a7884557bc59a44b492c4450e23956, type: 3}
+  - {fileID: 0}
   audioSource: {fileID: 8230904678911766067}
