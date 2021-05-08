@@ -14,5 +14,4 @@ public class TrapDamage : MonoBehaviour
             playerHealth.TakeDamage(damageOnCollision);
         }
     }
-    
 }
