@@ -266,7 +266,6 @@ GameObject:
   - component: {fileID: 335360068}
   - component: {fileID: 335360067}
   - component: {fileID: 335360069}
-  - component: {fileID: 335360070}
   m_Layer: 5
   m_Name: monde 2
   m_TagString: Untagged
@@ -385,25 +384,6 @@ MonoBehaviour:
           m_StringArgument: Monde 2
           m_BoolArgument: 0
         m_CallState: 2
---- !u!95 &335360070
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335360065}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 18791a54192df7a47ae45e8dde8c1229, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +745,6 @@ GameObject:
   - component: {fileID: 577103529}
   - component: {fileID: 577103528}
   - component: {fileID: 577103527}
-  - component: {fileID: 577103530}
   m_Layer: 5
   m_Name: Monde 1
   m_TagString: Untagged
@@ -811,7 +790,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 3
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -884,25 +863,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577103525}
   m_CullTransparentMesh: 0
---- !u!95 &577103530
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577103525}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fc42189f927e4354fa3d62a4a93a1f15, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &650691879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1327,6 @@ GameObject:
   - component: {fileID: 1254074020}
   - component: {fileID: 1254074019}
   - component: {fileID: 1254074018}
-  - component: {fileID: 1254074022}
   m_Layer: 5
   m_Name: monde 3
   m_TagString: Untagged
@@ -1486,25 +1445,6 @@ RectTransform:
   m_AnchoredPosition: {x: 264, y: -122.4}
   m_SizeDelta: {x: 160, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1254074022
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254074017}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 156f96ce625159d4780629e9f98f7c3f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1521436329
 GameObject:
   m_ObjectHideFlags: 0

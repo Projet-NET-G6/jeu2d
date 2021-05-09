@@ -178,24 +178,14 @@ public class NewPlayerMovements : MonoBehaviour
 
     void Flip(float _velocity)
     {
-        bool fliping;
         if (_velocity > 0.2f)
         {
             transform.localScale = Vector3.one;
-            fliping = false;
         }
         else if (_velocity < -0.2f)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-            fliping = true;   
+            transform.localScale = new Vector3(-1f, 1f, 1f); 
         }
-        else 
-        {
-            fliping = false;
-        }
-
-
-        //return fliping;
     }
 
     private void OnDrawGizmos()
