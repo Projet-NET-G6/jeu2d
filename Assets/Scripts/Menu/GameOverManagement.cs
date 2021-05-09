@@ -8,7 +8,7 @@ public class GameOverManagement : MonoBehaviour
 {
 
     public GameObject gameOverUI;
-
+    private bool GameOverMenuActivated = false;
     public static GameOverManagement instance;
 
     private void Awake()
@@ -20,6 +20,21 @@ public class GameOverManagement : MonoBehaviour
         }
 
         instance = this;
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape) && GameOverMenuActivated == false)
+        {
+            gameOverUI.SetActive(true);
+            GameOverMenuActivated = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && GameOverMenuActivated == true)
+        {
+            gameOverUI.SetActive(false);
+            GameOverMenuActivated = false;
+        }
+        
     }
     //active le menu game over si le joueur meurt voir PlayerHealth.cs
     public void OnPlayerDeath()

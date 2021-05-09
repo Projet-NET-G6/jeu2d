@@ -46,8 +46,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
+        time: 3.9833333
+        value: {x: -4.863384, y: 7, z: 0}
+        inSlope: {x: -8.21937, y: 0, z: 0}
+        outSlope: {x: -8.21937, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
         time: 4
-        value: {x: -5, y: 7, z: 22}
+        value: {x: -5, y: 7, z: 0}
         inSlope: {x: -8.173799, y: 0, z: 0}
         outSlope: {x: -8.173799, y: 0, z: 0}
         tangentMode: 0
@@ -206,7 +215,7 @@ AnimationClip:
     - time: 3.9166667
       value: {fileID: -7336932856281768672, guid: c016f0eb0a188a14ab7f86d910097523,
         type: 3}
-    - time: 4
+    - time: 3.9833333
       value: {fileID: -3049067163339015078, guid: c016f0eb0a188a14ab7f86d910097523,
         type: 3}
     attribute: m_Sprite
@@ -289,7 +298,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4.016667
+    m_StopTime: 4
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -382,7 +391,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 4
+        time: 3.9833333
         value: 7
         inSlope: 0
         outSlope: 0
@@ -428,8 +437,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 4
-        value: 22
+        time: 3.9833333
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136

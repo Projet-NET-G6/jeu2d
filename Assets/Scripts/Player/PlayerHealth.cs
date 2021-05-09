@@ -28,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
     
     void Update()
     {
+        //afin de test le menu GameOver
         if (Input.GetKeyDown(KeyCode.H))
         {
             TakeDamage(100);
