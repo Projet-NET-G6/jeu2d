@@ -21,23 +21,26 @@ public class GameOverManagement : MonoBehaviour
 
         instance = this;
     }
-
+    //active le menu game over si le joueur meurt voir PlayerHealth.cs
     public void OnPlayerDeath()
     {
         gameOverUI.SetActive(true);
     }
 
+    //Reload la Scene en cours
     public void RetryButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameOverUI.SetActive(false);
     }
 
+    //revois le joueur au menu de sélection des mondes 
     public void MainMenuButton()
     {
         SceneManager.LoadScene("SelectWorld");
     }
 
+    //RageQuit du joueur hehe
     public void QuitButton()
     {
         Application.Quit();

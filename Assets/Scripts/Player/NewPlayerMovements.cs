@@ -175,7 +175,7 @@ public class NewPlayerMovements : MonoBehaviour
 
         }
     }
-
+    //Inverse l'image en fonction du sens du déplacement
     void Flip(float _velocity)
     {
         if (_velocity > 0.2f)

@@ -7,21 +7,28 @@ using UnityEngine.SceneManagement;
 public class ObjectManager : MonoBehaviour
 {
     int worldPassed,nextScene;
-    
+
+    public GameObject transi;
+
     void Start()
     {
         nextScene = SceneManager.GetActiveScene().buildIndex +1;
     }
+    //Va vérif en permance si tous les objets ont été détruit ou pas 
+    
     private void Update()
     {
         AllObjectsCollected();
     }
+
     public void AllObjectsCollected()
     {
         Scene scene = SceneManager.GetActiveScene();
-
+        //Si plus aucun objet(enfant) alors passe au niv suivant / scene de selection des mondes
+        //active l'animation de transi
         if (transform.childCount==0)
         {
+            transi.SetActive(true);
             if(scene.name == "Monde1Level3" || scene.name == "Monde2Level3")
             {
                 PlayerPrefs.SetInt("worldPassed", (PlayerPrefs.GetInt("worldPassed") + 1));
@@ -33,7 +40,7 @@ public class ObjectManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Victoire");
+                //Debug.Log("Victoire");
                 if( scene.name == "Monde1Level1" || scene.name == "Monde1Level2")
                 {
                     PlayerPrefs.SetInt("levelPassedMonde1", PlayerPrefs.GetInt("levelPassedMonde1")+1);

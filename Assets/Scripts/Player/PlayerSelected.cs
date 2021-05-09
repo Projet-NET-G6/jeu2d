@@ -15,7 +15,7 @@ public class PlayerSelected : MonoBehaviour
 
     public RuntimeAnimatorController[] playersController;
     public Sprite[] playersRenderer;
-
+    //Check le choix du Joueur dans les Prefs du joueur
     void Start()
     {
         if(!enableSelectSkin)
@@ -24,6 +24,7 @@ public class PlayerSelected : MonoBehaviour
         }
         else 
         {
+            //principalement la pour check les différentes animations pendant le dev du jeu sinon jamais utilisé 
             switch (playerSelected)
             {
                 case Player.FrogPlayer:

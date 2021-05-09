@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class BackButton : MonoBehaviour
 {
-    public void Back(string name) {
+    //Load la scene précédente voulue ou (skin shop)
+    public void Back(string name)
+    {
         SceneManager.LoadScene(name);
     }
 }

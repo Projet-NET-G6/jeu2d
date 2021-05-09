@@ -13,7 +13,8 @@ public class FireTrap : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     
-    //Si animation de feu acitf alors tuera le personnage
+    //si entre en collision avec quelque chose alors active ses animations
+    //si animation de feu en cours alors infligera des dégats au joueurs
     private void OnTriggerEnter2D(Collider2D collision)
     {
         animator.SetBool("IsActivated", true);
@@ -28,7 +29,7 @@ public class FireTrap : MonoBehaviour
             }
         }
     }
-
+    //désactive l'animation de feu 
     private void OnTriggerExit2D(Collider2D collision)
     {
         animator.SetBool("IsActivated", false);

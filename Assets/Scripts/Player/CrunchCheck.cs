@@ -9,6 +9,7 @@ public class CrunchCheck : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Si entre collision avec un tag Ennemi dans notre cas les RockHead ou avec les fondtaions alors tue le joueur
         if (collision.transform.CompareTag("Ennemi") || collision.transform.CompareTag("Fondation"))
         {
             

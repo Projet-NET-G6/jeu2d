@@ -9,7 +9,7 @@ public class ActivationTrampoline : MonoBehaviour
     public Animator animator;
 
     public AudioSource clip;
-
+    //Si entre en collision avec le jour alors active l'animation de trampo + le son et donne Player vitesse Y pour le faire sauter
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.CompareTag("Player"))

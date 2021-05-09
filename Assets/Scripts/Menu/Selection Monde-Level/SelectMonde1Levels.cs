@@ -9,7 +9,7 @@ public class SelectMonde1Levels : MonoBehaviour
     public Button Level02Button, Level03Button;
     int levelPassed, test;
 
-
+    //Remet à zero tous les boutons 
     void Start()
     {
         //PlayerPrefs.DeleteAll();
@@ -17,9 +17,9 @@ public class SelectMonde1Levels : MonoBehaviour
         //Debug.Log(levelPassed);
         Level02Button.interactable = false;
         Level03Button.interactable = false;
-
-
     }
+
+    //Met à jour les boutons juste apres si les mondes sont passés 
     void Update()
     {
         switch (levelPassed)
@@ -33,6 +33,8 @@ public class SelectMonde1Levels : MonoBehaviour
                 break;
         }
     }
+
+    //load la scene voulu
     public void LeveltoLoad(string name)
     {
         SceneManager.LoadScene(name);

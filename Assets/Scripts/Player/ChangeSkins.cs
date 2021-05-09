@@ -8,6 +8,7 @@ public class ChangeSkins : MonoBehaviour
 
     public GameObject player;
 
+    //Si entre dans la porte du choix de Skins alors active le panel de skins
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
@@ -15,7 +16,7 @@ public class ChangeSkins : MonoBehaviour
             skinsPanel.gameObject.SetActive(true);
         }
     }
-
+    //Si sort dans la porte du choix de Skins alors désactive le panel de skins
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -23,7 +24,8 @@ public class ChangeSkins : MonoBehaviour
             skinsPanel.gameObject.SetActive(false);
         }
     }
-    
+
+    //Set le skins du joueur
     public void SetPlayerFrog()
     {
         PlayerPrefs.SetString("PlayerSelected", "FrogPlayer");
@@ -45,6 +47,7 @@ public class ChangeSkins : MonoBehaviour
         ResetPlayerSkin();
     }
     
+    //désactive le panel de skins et appel la methode ChangePlayerInMenu (voir PlayerSelected.cs)
     void ResetPlayerSkin()
     {
         skinsPanel.gameObject.SetActive(false);

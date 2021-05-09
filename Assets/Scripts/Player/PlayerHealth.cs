@@ -17,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
 
         instance = this;
     }
+    //initialise les hps du joueur à 100 
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -24,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
        
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
@@ -32,11 +33,11 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(100);
         }
     }
-
+    // le joueur prend X degat quand cette methode est appelée 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
+        //si hp du player en dessous ou egale a 0 alors appele Die();
         if (currentHealth <= 0)
         {
             Die();
@@ -44,6 +45,12 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    //cette methode fait :
+    //désactive l'image du joueur;
+    //active son animation de mort
+    //rend sa physique en Kinematic
+    //désactive son collider
+    //appel la methode OnPlayerDeath (voir GameOverManagement.cs)
     public void Die()
     {
         Debug.Log("Le joueur est éliminé");

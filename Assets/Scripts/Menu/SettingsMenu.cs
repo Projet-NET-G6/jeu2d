@@ -38,23 +38,23 @@ public class SettingsMenu : MonoBehaviour
 
         Screen.fullScreen = true;
     }
-
+    //change le volume
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
     }
-
+    //active ou désactive le fullscreen
     public void SetFullScreen(bool isFullScreen)
     {
         Screen.fullScreen = isFullScreen;
     }
-
+    //change la resolution
     public void SetResolutions(int resolutionsIndex)
     {
         Resolution resolution = resolutions[resolutionsIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-    
+    //Reset le jeu a zero
     public void ResetPlayerPref()
     {
         PlayerPrefs.DeleteAll();
