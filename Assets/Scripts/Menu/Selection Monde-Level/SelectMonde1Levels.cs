@@ -24,10 +24,16 @@ public class SelectMonde1Levels : MonoBehaviour
     {
         switch (levelPassed)
         {
+            case 0:
+                break;
             case 1:
                 Level02Button.interactable = true;
                 break;
             case 2:
+                Level02Button.interactable = true;
+                Level03Button.interactable = true;
+                break;
+            default:
                 Level02Button.interactable = true;
                 Level03Button.interactable = true;
                 break;

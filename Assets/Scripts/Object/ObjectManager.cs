@@ -29,12 +29,17 @@ public class ObjectManager : MonoBehaviour
         if (transform.childCount==0)
         {
             transi.SetActive(true);
-            if(scene.name == "Monde1Level3" || scene.name == "Monde2Level3")
+            if(scene.name == "Monde1Level3" && PlayerPrefs.GetInt("worldPassed") == 0)
             {
                 PlayerPrefs.SetInt("worldPassed", (PlayerPrefs.GetInt("worldPassed") + 1));
                 SceneManager.LoadScene("SelectWorld");
             }
-            else if(scene.name == "Monde3Level3")
+            else if(scene.name == "Monde2Level3" && PlayerPrefs.GetInt("worldPassed") == 1)
+            {
+                PlayerPrefs.SetInt("worldPassed", (PlayerPrefs.GetInt("worldPassed") + 1));
+                SceneManager.LoadScene("SelectWorld");
+            }
+            else if(scene.name == "Monde1Level3" || scene.name == "Monde2Level3" || scene.name == "Monde3Level3")
             {
                 SceneManager.LoadScene("SelectWorld");
             }
