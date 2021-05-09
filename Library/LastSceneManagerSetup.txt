@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/SectionNiv/Monde 3.unity
+- path: Assets/Scenes/Monde 2/Monde2Level1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
